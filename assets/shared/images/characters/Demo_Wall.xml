@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Demo Wall.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Demo Wall Down0000" x="0" y="0" width="468" height="620" frameX="-1" frameY="0" frameWidth="469" frameHeight="620"/>
+	<SubTexture name="Demo Wall Down0001" x="0" y="0" width="468" height="620" frameX="-1" frameY="0" frameWidth="469" frameHeight="620"/>
+	<SubTexture name="Demo Wall Down0002" x="0" y="0" width="468" height="620" frameX="-1" frameY="0" frameWidth="469" frameHeight="620"/>
+	<SubTexture name="Demo Wall Down0003" x="0" y="0" width="468" height="620" frameX="-1" frameY="0" frameWidth="469" frameHeight="620"/>
+	<SubTexture name="Demo Wall Down0004" x="468" y="0" width="465" height="620" frameX="0" frameY="0" frameWidth="469" frameHeight="620"/>
+	<SubTexture name="Demo Wall Down0005" x="468" y="0" width="465" height="620" frameX="0" frameY="0" frameWidth="469" frameHeight="620"/>
+	<SubTexture name="Demo Wall Down0006" x="468" y="0" width="465" height="620" frameX="0" frameY="0" frameWidth="469" frameHeight="620"/>
+	<SubTexture name="Demo Wall Down0007" x="468" y="0" width="465" height="620" frameX="0" frameY="0" frameWidth="469" frameHeight="620"/>
+	<SubTexture name="Demo Wall Down0008" x="933" y="0" width="465" height="620" frameX="-1" frameY="0" frameWidth="469" frameHeight="620"/>
+	<SubTexture name="Demo Wall Down0009" x="933" y="0" width="465" height="620" frameX="-1" frameY="0" frameWidth="469" frameHeight="620"/>
+	<SubTexture name="Demo Wall Idle0000" x="1398" y="0" width="398" height="635" frameX="-2" frameY="0" frameWidth="405" frameHeight="641"/>
+	<SubTexture name="Demo Wall Idle0001" x="1398" y="0" width="398" height="635" frameX="-2" frameY="0" frameWidth="405" frameHeight="641"/>
+	<SubTexture name="Demo Wall Idle0002" x="1796" y="0" width="405" height="641"/>
+	<SubTexture name="Demo Wall Idle0003" x="1796" y="0" width="405" height="641"/>
+	<SubTexture name="Demo Wall Idle0004" x="2201" y="0" width="378" height="629" frameX="-1" frameY="0" frameWidth="405" frameHeight="641"/>
+	<SubTexture name="Demo Wall Idle0005" x="2201" y="0" width="378" height="629" frameX="-1" frameY="0" frameWidth="405" frameHeight="641"/>
+	<SubTexture name="Demo Wall Idle0006" x="2201" y="0" width="378" height="629" frameX="-1" frameY="0" frameWidth="405" frameHeight="641"/>
+	<SubTexture name="Demo Wall Idle0007" x="2201" y="0" width="378" height="629" frameX="-1" frameY="0" frameWidth="405" frameHeight="641"/>
+	<SubTexture name="Demo Wall Idle0008" x="2201" y="0" width="378" height="629" frameX="-1" frameY="0" frameWidth="405" frameHeight="641"/>
+	<SubTexture name="Demo Wall Idle0009" x="2201" y="0" width="378" height="629" frameX="-1" frameY="0" frameWidth="405" frameHeight="641"/>
+	<SubTexture name="Demo Wall Left0000" x="2579" y="0" width="254" height="620"/>
+	<SubTexture name="Demo Wall Left0001" x="2579" y="0" width="254" height="620"/>
+	<SubTexture name="Demo Wall Left0002" x="2833" y="0" width="249" height="620" frameX="-3" frameY="0" frameWidth="254" frameHeight="620"/>
+	<SubTexture name="Demo Wall Left0003" x="2833" y="0" width="249" height="620" frameX="-3" frameY="0" frameWidth="254" frameHeight="620"/>
+	<SubTexture name="Demo Wall Left0004" x="3082" y="0" width="247" height="620" frameX="-3" frameY="0" frameWidth="254" frameHeight="620"/>
+	<SubTexture name="Demo Wall Left0005" x="3082" y="0" width="247" height="620" frameX="-3" frameY="0" frameWidth="254" frameHeight="620"/>
+	<SubTexture name="Demo Wall Left0006" x="3082" y="0" width="247" height="620" frameX="-3" frameY="0" frameWidth="254" frameHeight="620"/>
+	<SubTexture name="Demo Wall Left0007" x="3082" y="0" width="247" height="620" frameX="-3" frameY="0" frameWidth="254" frameHeight="620"/>
+	<SubTexture name="Demo Wall Left0008" x="3082" y="0" width="247" height="620" frameX="-3" frameY="0" frameWidth="254" frameHeight="620"/>
+	<SubTexture name="Demo Wall Left0009" x="3082" y="0" width="247" height="620" frameX="-3" frameY="0" frameWidth="254" frameHeight="620"/>
+	<SubTexture name="Demo Wall Right0000" x="3329" y="0" width="773" height="649"/>
+	<SubTexture name="Demo Wall Right0001" x="3329" y="0" width="773" height="649"/>
+	<SubTexture name="Demo Wall Right0002" x="4102" y="0" width="771" height="644" frameX="0" frameY="-5" frameWidth="773" frameHeight="649"/>
+	<SubTexture name="Demo Wall Right0003" x="4102" y="0" width="771" height="644" frameX="0" frameY="-5" frameWidth="773" frameHeight="649"/>
+	<SubTexture name="Demo Wall Right0004" x="4873" y="0" width="770" height="638" frameX="0" frameY="-11" frameWidth="773" frameHeight="649"/>
+	<SubTexture name="Demo Wall Right0005" x="4873" y="0" width="770" height="638" frameX="0" frameY="-11" frameWidth="773" frameHeight="649"/>
+	<SubTexture name="Demo Wall Right0006" x="4873" y="0" width="770" height="638" frameX="0" frameY="-11" frameWidth="773" frameHeight="649"/>
+	<SubTexture name="Demo Wall Right0007" x="4873" y="0" width="770" height="638" frameX="0" frameY="-11" frameWidth="773" frameHeight="649"/>
+	<SubTexture name="Demo Wall Right0008" x="4873" y="0" width="770" height="638" frameX="0" frameY="-11" frameWidth="773" frameHeight="649"/>
+	<SubTexture name="Demo Wall Right0009" x="4873" y="0" width="770" height="638" frameX="0" frameY="-11" frameWidth="773" frameHeight="649"/>
+	<SubTexture name="Demo Wall Up0000" x="5643" y="0" width="464" height="624"/>
+	<SubTexture name="Demo Wall Up0001" x="5643" y="0" width="464" height="624"/>
+	<SubTexture name="Demo Wall Up0002" x="6107" y="0" width="460" height="620" frameX="-3" frameY="-4" frameWidth="464" frameHeight="624"/>
+	<SubTexture name="Demo Wall Up0003" x="6107" y="0" width="460" height="620" frameX="-3" frameY="-4" frameWidth="464" frameHeight="624"/>
+	<SubTexture name="Demo Wall Up0004" x="6567" y="0" width="459" height="620" frameX="-4" frameY="-4" frameWidth="464" frameHeight="624"/>
+	<SubTexture name="Demo Wall Up0005" x="6567" y="0" width="459" height="620" frameX="-4" frameY="-4" frameWidth="464" frameHeight="624"/>
+	<SubTexture name="Demo Wall Up0006" x="6567" y="0" width="459" height="620" frameX="-4" frameY="-4" frameWidth="464" frameHeight="624"/>
+	<SubTexture name="Demo Wall Up0007" x="6567" y="0" width="459" height="620" frameX="-4" frameY="-4" frameWidth="464" frameHeight="624"/>
+	<SubTexture name="Demo Wall Up0008" x="6567" y="0" width="459" height="620" frameX="-4" frameY="-4" frameWidth="464" frameHeight="624"/>
+	<SubTexture name="Demo Wall Up0009" x="6567" y="0" width="459" height="620" frameX="-4" frameY="-4" frameWidth="464" frameHeight="624"/>
+</TextureAtlas>

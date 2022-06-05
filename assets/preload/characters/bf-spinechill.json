@@ -1,0 +1,146 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SpinneChill BF Idle "
+		},
+		{
+			"offsets": [
+				125,
+				68
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				2,
+				3,
+				4,
+				5,
+				6
+			],
+			"name": "SpinneChill BF Left"
+		},
+		{
+			"offsets": [
+				88,
+				-31
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				2,
+				3,
+				4,
+				5,
+				6
+			],
+			"name": "SpinneChill BF Down"
+		},
+		{
+			"offsets": [
+				23,
+				222
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				2,
+				3,
+				4,
+				5,
+				6
+			],
+			"name": "SpinneChill BF Up"
+		},
+		{
+			"offsets": [
+				-228,
+				46
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				2,
+				3,
+				4,
+				5,
+				6
+			],
+			"name": "SpinneChill BF Right"
+		},
+		{
+			"offsets": [
+				132,
+				93
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "SpinneChill BF Left Miss"
+		},
+		{
+			"offsets": [
+				80,
+				-33
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "SpinneChill BF Down Miss"
+		},
+		{
+			"offsets": [
+				39,
+				238
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "SpinneChill BF Up Miss"
+		},
+		{
+			"offsets": [
+				-250,
+				69
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "SpinneChill BF Right Miss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SpinneChill_BF",
+	"position": [
+		450,
+		1040
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		730,
+		-780
+	],
+	"sing_duration": 4,
+	"scale": 2.1
+}
