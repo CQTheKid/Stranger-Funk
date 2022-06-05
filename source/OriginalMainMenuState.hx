@@ -23,6 +23,9 @@ import lime.app.Application;
 
 using StringTools;
 
+/*
+	Incase We Screw Up
+ */
 class OriginalMainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.5.1'; // This is also used for Discord RPC

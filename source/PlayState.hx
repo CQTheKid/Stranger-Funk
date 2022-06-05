@@ -308,6 +308,8 @@ class PlayState extends MusicBeatState
 	{
 		Paths.clearStoredMemory();
 
+		FlxG.mouse.visible = false;
+
 		// for lua
 		instance = this;
 
@@ -539,7 +541,7 @@ class PlayState extends MusicBeatState
 				houseBG.animation.addByPrefix('LightUpFrame', 'LightsOn', 24, false);
 				add(houseBG);
 
-				houselights = new BGSprite('interior/Lights', houseBG.x, houseBG.y, 0.9, 0.9);
+				houselights = new BGSprite('interior/Lights', houseBG.x - 100, houseBG.y, 0.9, 0.9);
 				houselights.frames = Paths.getSparrowAtlas('interior/Lights');
 				houselights.animation.addByPrefix('StaticFrame', 'LightsOff', 24, false);
 				houselights.animation.addByPrefix('LightUpFrame', 'LightsOn', 24, false);
