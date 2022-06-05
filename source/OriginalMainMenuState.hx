@@ -23,7 +23,7 @@ import lime.app.Application;
 
 using StringTools;
 
-class MainMenuState extends MusicBeatState
+class OriginalMainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.5.1'; // This is also used for Discord RPC
 	public static var curSelected:Int = 0;
@@ -127,6 +127,17 @@ class MainMenuState extends MusicBeatState
 			// menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
 			menuItem.updateHitbox();
 		}
+
+		FlxG.camera.follow(camFollowPos, null, 1);
+
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
+		versionShit.scrollFactor.set();
+		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(versionShit);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Friday Night Funkin' v" + Application.current.meta.get('version'), 12);
+		versionShit.scrollFactor.set();
+		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(versionShit);
 
 		// NG.core.calls.event.logEvent('swag').send();
 
