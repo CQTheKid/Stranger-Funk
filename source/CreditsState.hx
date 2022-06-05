@@ -143,6 +143,9 @@ class CreditsState extends MusicBeatState
 				'https://twitter.com/river_oaken',
 				'C30085'
 			],
+
+			[''],
+			['Ex-Psych Engine Team Members'],
 			[
 				'bb-panzu',
 				'bb-panzu',

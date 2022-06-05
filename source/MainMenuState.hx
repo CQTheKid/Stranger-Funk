@@ -37,6 +37,8 @@ class MainMenuState extends MusicBeatState
 	var freeplayButton:FlxSprite;
 	var gaunletButton:FlxSprite;
 	var settingButton:FlxSprite;
+	var creditsButton:FlxSprite;
+	var fuckingHilariousButton:FlxSprite;
 
 	var warningText:FlxText;
 	var notScientificallyPossible:Float = 0;
@@ -87,7 +89,7 @@ class MainMenuState extends MusicBeatState
 
 		var scale:Float = 1;
 
-		storyButton = new FlxSprite(100).loadGraphic(Paths.image('mainmenu/story'));
+		storyButton = new FlxSprite(200).loadGraphic(Paths.image('mainmenu/story'));
 		storyButton.screenCenter(Y);
 		storyButton.y += 500;
 		storyButton.setGraphicSize(Std.int(storyButton.height * 0.2));
@@ -103,9 +105,19 @@ class MainMenuState extends MusicBeatState
 			gaunletButton = new FlxSprite(freeplayButton.x + 325, storyButton.y + 7).loadGraphic(Paths.image('mainmenu/guanlet'));
 		else
 			gaunletButton = new FlxSprite(freeplayButton.x + 325, storyButton.y + 7).loadGraphic(Paths.image('mainmenu/gauntlet'));
-		gaunletButton.setGraphicSize(Std.int(gaunletButton.height * 0.25));
+		gaunletButton.setGraphicSize(Std.int(gaunletButton.height * 0.27));
 		gaunletButton.updateHitbox();
 		add(gaunletButton);
+
+		settingButton = new FlxSprite(gaunletButton.x - 19, storyButton.y + 400).loadGraphic(Paths.image('mainmenu/settings'));
+		settingButton.setGraphicSize(Std.int(settingButton.height * 0.57));
+		settingButton.updateHitbox();
+		add(settingButton);
+
+		creditsButton = new FlxSprite(gaunletButton.x - 140, storyButton.y + 575).loadGraphic(Paths.image('mainmenu/Creditsbutton'));
+		creditsButton.setGraphicSize(Std.int(creditsButton.width * 0.45));
+		creditsButton.updateHitbox();
+		add(creditsButton);
 
 		warningText = new FlxText(0, 675, 0, "Use Your Mouse To Select The Menu Buttons!", 28);
 		warningText.scrollFactor.set();
@@ -188,6 +200,28 @@ class MainMenuState extends MusicBeatState
 			{
 				// MusicBeatState.switchState(new StoryMenuState());
 				FlxG.sound.play(Paths.sound('gauntletWarning'));
+				somethingSelected = false;
+			});
+		}
+
+		if (FlxG.mouse.justPressed && FlxG.mouse.overlaps(settingButton) && !somethingSelected)
+		{
+			somethingSelected = true;
+			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
+			FlxFlicker.flicker(settingButton, 1, 0.06, false, false, function(flick:FlxFlicker)
+			{
+				LoadingState.loadAndSwitchState(new options.OptionsState());
+				somethingSelected = false;
+			});
+		}
+
+		if (FlxG.mouse.justPressed && FlxG.mouse.overlaps(creditsButton) && !somethingSelected)
+		{
+			somethingSelected = true;
+			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
+			FlxFlicker.flicker(creditsButton, 1, 0.06, false, false, function(flick:FlxFlicker)
+			{
+				MusicBeatState.switchState(new CreditsState());
 				somethingSelected = false;
 			});
 		}
