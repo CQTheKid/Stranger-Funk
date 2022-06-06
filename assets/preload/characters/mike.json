@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				17,
+				-89
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Mikeparty Left"
+		},
+		{
+			"offsets": [
+				-11,
+				-87
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Mikeparty Down"
+		},
+		{
+			"offsets": [
+				-19,
+				-67
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Mikeparty Up"
+		},
+		{
+			"offsets": [
+				16,
+				-66
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Mikeparty Right"
+		},
+		{
+			"offsets": [
+				-9,
+				-107
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Mikeparty Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Mike",
+	"position": [
+		-20,
+		-160
+	],
+	"healthicon": "mike",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		60,
+		101
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Dustin.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Distinparty Right0000" x="0" y="0" width="367" height="507"/>
+	<SubTexture name="Distinparty Right0001" x="0" y="0" width="367" height="507"/>
+	<SubTexture name="Distinparty Right0002" x="367" y="0" width="355" height="507" frameX="0" frameY="0" frameWidth="367" frameHeight="507"/>
+	<SubTexture name="Distinparty Right0003" x="367" y="0" width="355" height="507" frameX="0" frameY="0" frameWidth="367" frameHeight="507"/>
+	<SubTexture name="Distinparty Right0004" x="722" y="0" width="351" height="500" frameX="0" frameY="-7" frameWidth="367" frameHeight="507"/>
+	<SubTexture name="Distinparty Right0005" x="722" y="0" width="351" height="500" frameX="0" frameY="-7" frameWidth="367" frameHeight="507"/>
+	<SubTexture name="Distinparty Right0006" x="722" y="0" width="351" height="500" frameX="0" frameY="-7" frameWidth="367" frameHeight="507"/>
+	<SubTexture name="Distinparty Right0007" x="722" y="0" width="351" height="500" frameX="0" frameY="-7" frameWidth="367" frameHeight="507"/>
+	<SubTexture name="Distinparty Right0008" x="722" y="0" width="351" height="500" frameX="0" frameY="-7" frameWidth="367" frameHeight="507"/>
+	<SubTexture name="Distinparty Right0009" x="722" y="0" width="351" height="500" frameX="0" frameY="-7" frameWidth="367" frameHeight="507"/>
+	<SubTexture name="Dustinparty Down0000" x="1073" y="0" width="326" height="425"/>
+	<SubTexture name="Dustinparty Down0001" x="1073" y="0" width="326" height="425"/>
+	<SubTexture name="Dustinparty Down0002" x="1399" y="0" width="313" height="423" frameX="-4" frameY="-2" frameWidth="326" frameHeight="425"/>
+	<SubTexture name="Dustinparty Down0003" x="1399" y="0" width="313" height="423" frameX="-4" frameY="-2" frameWidth="326" frameHeight="425"/>
+	<SubTexture name="Dustinparty Down0004" x="1712" y="0" width="307" height="416" frameX="-4" frameY="-3" frameWidth="326" frameHeight="425"/>
+	<SubTexture name="Dustinparty Down0005" x="1712" y="0" width="307" height="416" frameX="-4" frameY="-3" frameWidth="326" frameHeight="425"/>
+	<SubTexture name="Dustinparty Down0006" x="1712" y="0" width="307" height="416" frameX="-4" frameY="-3" frameWidth="326" frameHeight="425"/>
+	<SubTexture name="Dustinparty Down0007" x="1712" y="0" width="307" height="416" frameX="-4" frameY="-3" frameWidth="326" frameHeight="425"/>
+	<SubTexture name="Dustinparty Down0008" x="1712" y="0" width="307" height="416" frameX="-4" frameY="-3" frameWidth="326" frameHeight="425"/>
+	<SubTexture name="Dustinparty Down0009" x="1712" y="0" width="307" height="416" frameX="-4" frameY="-3" frameWidth="326" frameHeight="425"/>
+	<SubTexture name="Dustinparty Idle0000" x="2019" y="0" width="362" height="430"/>
+	<SubTexture name="Dustinparty Idle0001" x="2019" y="0" width="362" height="430"/>
+	<SubTexture name="Dustinparty Idle0002" x="2381" y="0" width="345" height="424" frameX="-2" frameY="-6" frameWidth="362" frameHeight="430"/>
+	<SubTexture name="Dustinparty Idle0003" x="2381" y="0" width="345" height="424" frameX="-2" frameY="-6" frameWidth="362" frameHeight="430"/>
+	<SubTexture name="Dustinparty Idle0004" x="2726" y="0" width="337" height="424" frameX="-2" frameY="-6" frameWidth="362" frameHeight="430"/>
+	<SubTexture name="Dustinparty Idle0005" x="2726" y="0" width="337" height="424" frameX="-2" frameY="-6" frameWidth="362" frameHeight="430"/>
+	<SubTexture name="Dustinparty Idle0006" x="2726" y="0" width="337" height="424" frameX="-2" frameY="-6" frameWidth="362" frameHeight="430"/>
+	<SubTexture name="Dustinparty Idle0007" x="2726" y="0" width="337" height="424" frameX="-2" frameY="-6" frameWidth="362" frameHeight="430"/>
+	<SubTexture name="Dustinparty Idle0008" x="2726" y="0" width="337" height="424" frameX="-2" frameY="-6" frameWidth="362" frameHeight="430"/>
+	<SubTexture name="Dustinparty Idle0009" x="2726" y="0" width="337" height="424" frameX="-2" frameY="-6" frameWidth="362" frameHeight="430"/>
+	<SubTexture name="Dustinparty Left0000" x="3063" y="0" width="299" height="386" frameX="0" frameY="0" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="Dustinparty Left0001" x="3063" y="0" width="299" height="386" frameX="0" frameY="0" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="Dustinparty Left0002" x="3362" y="0" width="293" height="382" frameX="-7" frameY="-4" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="Dustinparty Left0003" x="3362" y="0" width="293" height="382" frameX="-7" frameY="-4" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="Dustinparty Left0004" x="3655" y="0" width="288" height="382" frameX="-12" frameY="-4" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="Dustinparty Left0005" x="3655" y="0" width="288" height="382" frameX="-12" frameY="-4" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="Dustinparty Left0006" x="3655" y="0" width="288" height="382" frameX="-12" frameY="-4" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="Dustinparty Left0007" x="3655" y="0" width="288" height="382" frameX="-12" frameY="-4" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="Dustinparty Left0008" x="3655" y="0" width="288" height="382" frameX="-12" frameY="-4" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="Dustinparty Left0009" x="3655" y="0" width="288" height="382" frameX="-12" frameY="-4" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="Dustinparty Up0000" x="3943" y="0" width="295" height="397" frameX="0" frameY="0" frameWidth="297" frameHeight="397"/>
+	<SubTexture name="Dustinparty Up0001" x="3943" y="0" width="295" height="397" frameX="0" frameY="0" frameWidth="297" frameHeight="397"/>
+	<SubTexture name="Dustinparty Up0002" x="4238" y="0" width="294" height="393" frameX="-3" frameY="-4" frameWidth="297" frameHeight="397"/>
+	<SubTexture name="Dustinparty Up0003" x="4238" y="0" width="294" height="393" frameX="-3" frameY="-4" frameWidth="297" frameHeight="397"/>
+	<SubTexture name="Dustinparty Up0004" x="4532" y="0" width="290" height="386" frameX="-6" frameY="-11" frameWidth="297" frameHeight="397"/>
+	<SubTexture name="Dustinparty Up0005" x="4532" y="0" width="290" height="386" frameX="-6" frameY="-11" frameWidth="297" frameHeight="397"/>
+	<SubTexture name="Dustinparty Up0006" x="4532" y="0" width="290" height="386" frameX="-6" frameY="-11" frameWidth="297" frameHeight="397"/>
+	<SubTexture name="Dustinparty Up0007" x="4532" y="0" width="290" height="386" frameX="-6" frameY="-11" frameWidth="297" frameHeight="397"/>
+	<SubTexture name="Dustinparty Up0008" x="4532" y="0" width="290" height="386" frameX="-6" frameY="-11" frameWidth="297" frameHeight="397"/>
+	<SubTexture name="Dustinparty Up0009" x="4532" y="0" width="290" height="386" frameX="-6" frameY="-11" frameWidth="297" frameHeight="397"/>
+</TextureAtlas>

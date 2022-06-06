@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-53,
+				-105
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DustinArm Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-79,
+				79
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "DustinArm Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				-107
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "DustinArm Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-83,
+				-97
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "DustinArm Left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-84,
+				-97
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "DustinArm Left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/DustinArm",
+	"position": [
+		-20,
+		-160
+	],
+	"healthicon": "dustin",
+	"flip_x": false,
+	"healthbar_colors": [
+		215,
+		82,
+		180
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

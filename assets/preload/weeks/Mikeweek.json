@@ -1,0 +1,49 @@
+{
+	"storyName": "Tabletop Troubles",
+	"difficulties": "Abyssal",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		89,
+		58,
+		86
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Dungeon Crawlers",
+			"party",
+			[
+				89,
+				58,
+				86
+			]
+		],
+		[
+			"Band Together",
+			"party",
+			[
+				89,
+				58,
+				86
+			]
+		],
+		[
+			"Big Bad",
+			"party",
+			[
+				89,
+				58,
+				86
+			]
+		]
+	],
+	"weekCharacters": [
+		"pico",
+		"mom",
+		"dad"
+	],
+	"weekName": "Sequel Week"
+}

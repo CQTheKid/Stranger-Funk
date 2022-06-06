@@ -99,10 +99,14 @@ class PlayState extends MusicBeatState
 	public var boyfriendMap:Map<String, Boyfriend> = new Map();
 	public var dadMap:Map<String, Character> = new Map();
 	public var gfMap:Map<String, Character> = new Map();
+	public var secondaryMap:Map<String, Character> = new Map();
+	public var FUCKINARMMap:Map<String, Character> = new Map();
 	#else
 	public var boyfriendMap:Map<String, Boyfriend> = new Map<String, Boyfriend>();
 	public var dadMap:Map<String, Character> = new Map<String, Character>();
 	public var gfMap:Map<String, Character> = new Map<String, Character>();
+	public var secondaryMap:Map<String, Character> = new Map();
+	public var FUCKINARMMap:Map<String, Character> = new Map();
 	#end
 
 	public var BF_X:Float = 770;
@@ -120,6 +124,8 @@ class PlayState extends MusicBeatState
 	public var boyfriendGroup:FlxSpriteGroup;
 	public var dadGroup:FlxSpriteGroup;
 	public var gfGroup:FlxSpriteGroup;
+	public var secondaryGroup:FlxSpriteGroup;
+	public var FUCKINARMGroup:FlxSpriteGroup;
 	public var shaderUpdates:Array<Float->Void> = [];
 
 	public static var curStage:String = '';
@@ -134,6 +140,8 @@ class PlayState extends MusicBeatState
 
 	public var dad:Character;
 	public var gf:Character;
+	public var secondary:Character;
+	public var FUCKINARM:Character;
 	public var boyfriend:Boyfriend;
 
 	public var notes:FlxTypedGroup<Note>;
@@ -240,6 +248,9 @@ class PlayState extends MusicBeatState
 	var overlay4:BGSprite;
 	var overlay5:BGSprite;
 
+	var table:BGSprite;
+	var gfSeat:BGSprite;
+	var willSeat:BGSprite;
 	var basementLight:BGSprite;
 
 	var upperBoppers:BGSprite;
@@ -474,7 +485,7 @@ class PlayState extends MusicBeatState
 				houseBG.animation.addByIndices('LightUpFrame', 'Symbol 1', [2, 3, 5, 6], "", 24, false);
 				add(houseBG);
 
-				trees = new BGSprite('byersHouse/ByersTrees', -380, -250, 1.2, 1.2);
+				trees = new BGSprite('byersHouse/ByersTrees', -300, -250, 1.2, 1.2);
 
 			case 'field':
 				var bg:BGSprite = new BGSprite('field/Bg', -1580, -1150, 1, 1);
@@ -515,27 +526,36 @@ class PlayState extends MusicBeatState
 				GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
 				GameOverSubstate.characterName = 'bf-pixel-dead';
 
-				var bg:BGSprite = new BGSprite("retrograde/bgTrees", -801, -301, 0.9, 0.9);
+				var bg:BGSprite = new BGSprite("retrograde/bgTrees", -800, -300, 0.9, 0.9);
 				bg.antialiasing = false;
 				add(bg);
 
-				trees = new BGSprite('retrograde/trees', -165, -134, 0.9, 0.9);
+				trees = new BGSprite('retrograde/trees', -165, -135, 0.9, 0.9);
 				trees.antialiasing = false;
 				trees.setGraphicSize(Std.int(trees.width * 0.8));
 				trees.updateHitbox();
 
 			case 'basement':
-				var bg:BGSprite = new BGSprite('basement/Basement', 0, 0, 0.9, 0.9);
-				bg.screenCenter();
+				var bg:BGSprite = new BGSprite('basement/Basement', -500, -500, 0.9, 0.9);
 				add(bg);
+
+				table = new BGSprite('basement/table', 0, 0, 0.9, 0.9);
+				table.setGraphicSize(Std.int(table.width * 0.8));
+				table.screenCenter();
 
 				basementLight = new BGSprite("basement/lighting", 0, 0, 0.9, 0.9);
 				basementLight.screenCenter();
-				add(basementLight);
+				basementLight.y -= 100;
+
+				secondary = new Character(100, -250, 'dustin');
+				FUCKINARM = new Character(secondary.x + 125, secondary.y + 250, 'dustinArm');
+				willSeat = new BGSprite('basement/Will', 0, 0, 1, 1, ['Willparty Idle']);
+				gfSeat = new BGSprite('basement/GfParty', 900, 0, 1, 1, ['Gfparty Idle']);
 
 			case 'interior':
 				houseBG = new BGSprite('interior/Interior', -2550, -775, 0.9, 0.9);
 				houseBG.frames = Paths.getSparrowAtlas('interior/Interior');
+
 				houseBG.setGraphicSize(Std.int(houseBG.width * .45));
 				houseBG.animation.addByPrefix('StaticFrame', 'LightsOff', 24, false);
 				houseBG.animation.addByPrefix('LightUpFrame', 'LightsOn', 24, false);
@@ -546,9 +566,25 @@ class PlayState extends MusicBeatState
 				houselights.animation.addByPrefix('StaticFrame', 'LightsOff', 24, false);
 				houselights.animation.addByPrefix('LightUpFrame', 'LightsOn', 24, false);
 				houselights.setGraphicSize(Std.int(houselights.width * .45));
-				add(houselights);
 
-				television = new BGSprite('interior/Overlay', -2800, 400, 1, 1);
+				television = new BGSprite('interior/Overlay', -2800, 450, 1, 1);
+				television.setGraphicSize(Std.int(television.width * .5));
+
+			case 'holeinterior':
+				houseBG = new BGSprite('interior/HoleInterior', -2550, -775, 0.9, 0.9);
+				houseBG.frames = Paths.getSparrowAtlas('interior/HoleInterior');
+				houseBG.setGraphicSize(Std.int(houseBG.width * .45));
+				houseBG.animation.addByPrefix('StaticFrame', 'LightsOff', 24, false);
+				houseBG.animation.addByPrefix('LightUpFrame', 'LightsOn', 24, false);
+				add(houseBG);
+
+				houselights = new BGSprite('interior/Lights', houseBG.x - 100, houseBG.y, 0.9, 0.9);
+				houselights.frames = Paths.getSparrowAtlas('interior/Lights');
+				houselights.animation.addByPrefix('StaticFrame', 'LightsOff', 24, false);
+				houselights.animation.addByPrefix('LightUpFrame', 'LightsOn', 24, false);
+				houselights.setGraphicSize(Std.int(houselights.width * .45));
+
+				television = new BGSprite('interior/Overlay', -2800, 450, 1, 1);
 				television.setGraphicSize(Std.int(television.width * .5));
 		}
 
@@ -587,7 +623,23 @@ class PlayState extends MusicBeatState
 			case 'interior':
 				add(boyfriendGroup);
 				add(dadGroup);
+				add(houselights);
 				add(television);
+			case 'holeinterior':
+				add(boyfriendGroup);
+				add(dadGroup);
+				add(houselights);
+				add(television);
+			case 'basement':
+				add(secondary);
+				add(gfGroup);
+				add(dadGroup);
+				add(table);
+				add(FUCKINARM);
+				add(willSeat);
+				add(gfSeat);
+				add(boyfriendGroup);
+				add(basementLight);
 			default:
 				add(dadGroup);
 				add(boyfriendGroup);
@@ -1133,6 +1185,29 @@ class PlayState extends MusicBeatState
 					startCharacterPos(newGf);
 					newGf.alpha = 0.00001;
 					startCharacterLua(newGf.curCharacter);
+				}
+			case 3:
+				if (!secondaryMap.exists(newCharacter))
+				{
+					var newsecondary:Character = new Character(0, 0, newCharacter);
+					newsecondary.scrollFactor.set(0.95, 0.95);
+					secondaryMap.set(newCharacter, newsecondary);
+					secondaryGroup.add(newsecondary);
+					startCharacterPos(newsecondary);
+					newsecondary.alpha = 0.00001;
+					startCharacterLua(newsecondary.curCharacter);
+				}
+
+			case 4:
+				if (!FUCKINARMMap.exists(newCharacter))
+				{
+					var newFUCKINARM:Character = new Character(0, 0, newCharacter);
+					newFUCKINARM.scrollFactor.set(0.95, 0.95);
+					FUCKINARMMap.set(newCharacter, newFUCKINARM);
+					FUCKINARMGroup.add(newFUCKINARM);
+					startCharacterPos(newFUCKINARM);
+					newFUCKINARM.alpha = 0.00001;
+					startCharacterLua(newFUCKINARM.curCharacter);
 				}
 		}
 	}
@@ -1725,13 +1800,7 @@ class PlayState extends MusicBeatState
 		// FlxG.log.add(ChartParser.parse());
 		songSpeedType = ClientPrefs.getGameplaySetting('scrolltype', 'multiplicative');
 
-		switch (songSpeedType)
-		{
-			case "multiplicative":
-				songSpeed = SONG.speed * ClientPrefs.getGameplaySetting('scrollspeed', 1);
-			case "constant":
-				songSpeed = ClientPrefs.getGameplaySetting('scrollspeed', 1);
-		}
+		songSpeed = SONG.speed * ClientPrefs.getGameplaySetting('scrollspeed', 1);
 
 		var songData = SONG;
 		Conductor.changeBPM(songData.bpm);
@@ -3215,6 +3284,9 @@ class PlayState extends MusicBeatState
 						}
 					});
 				}
+			case 'Change Health Icons':
+				iconP2.changeIcon(value1);
+				reloadHealthBarColors();
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
@@ -4083,6 +4155,12 @@ class PlayState extends MusicBeatState
 				char = gf;
 			}
 
+			if (note.secondaryNote)
+			{
+				char = secondary;
+				FUCKINARM.playAnim(animToPlay, true);
+			}
+
 			char.playAnim(animToPlay, true);
 			char.holdTimer = 0;
 		}
@@ -4554,7 +4632,8 @@ class PlayState extends MusicBeatState
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();
 
-		if (curBeat % gfSpeed == 0
+		if (curStage != 'basement'
+			&& curBeat % gfSpeed == 0
 			&& !gf.stunned
 			&& gf.animation.curAnim.name != null
 			&& !gf.animation.curAnim.name.startsWith("sing"))
@@ -4571,6 +4650,34 @@ class PlayState extends MusicBeatState
 			if (dad.animation.curAnim.name != null && !dad.animation.curAnim.name.startsWith("sing") && !dad.stunned)
 			{
 				dad.dance();
+			}
+
+			if (gf.animation.curAnim.name != null
+				&& !gf.animation.curAnim.name.startsWith("sing")
+				&& !gf.stunned
+				&& curStage == 'basement')
+				gf.dance();
+
+			if (curStage == 'basement'
+				&& secondary.animation.curAnim.name != null
+				&& !secondary.animation.curAnim.name.startsWith("sing")
+				&& !secondary.stunned)
+			{
+				secondary.dance();
+			}
+
+			if (curStage == 'basement'
+				&& FUCKINARM.animation.curAnim.name != null
+				&& !FUCKINARM.animation.curAnim.name.startsWith("sing")
+				&& !FUCKINARM.stunned)
+			{
+				FUCKINARM.dance();
+			}
+
+			if (curStage == 'basement')
+			{
+				gfSeat.dance(true);
+				willSeat.dance(true);
 			}
 		}
 		else if (dad.danceIdle
@@ -4596,6 +4703,19 @@ class PlayState extends MusicBeatState
 				}
 
 			case "interior":
+				if (curBeat % 4 == 0)
+				{
+					houseBG.animation.play('StaticFrame');
+					houselights.animation.play('StaticFrame');
+				}
+
+				if (curBeat % 4 == 1)
+				{
+					houseBG.animation.play('LightUpFrame');
+					houselights.animation.play('LightUpFrame');
+				}
+
+			case "holeinterior":
 				if (curBeat % 4 == 0)
 				{
 					houseBG.animation.play('StaticFrame');

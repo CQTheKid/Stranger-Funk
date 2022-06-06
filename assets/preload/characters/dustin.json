@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				-107
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Dustinparty Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				-110
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Dustinparty Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				-71
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Dustinparty Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-14,
+				-106
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Distinparty Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				-107
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Dustinparty Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Dustin",
+	"position": [
+		-20,
+		-160
+	],
+	"healthicon": "dustin",
+	"flip_x": false,
+	"healthbar_colors": [
+		215,
+		82,
+		100
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

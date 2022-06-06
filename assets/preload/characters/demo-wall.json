@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				17,
 				-106
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Demo Wall Left"
+			"fps": 24,
+			"name": "Demo Wall Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				54,
 				-105
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Demo Wall Down"
+			"fps": 24,
+			"name": "Demo Wall Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				34,
 				-102
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Demo Wall Up"
+			"fps": 24,
+			"name": "Demo Wall Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				123,
 				-77
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Demo Wall Right"
+			"fps": 24,
+			"name": "Demo Wall Right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-9,
 				-107
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Demo Wall Idle"
+			"fps": 24,
+			"name": "Demo Wall Idle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -70,7 +70,7 @@
 		0
 	],
 	"camera_position": [
-		120,
+		290,
 		300
 	],
 	"sing_duration": 4,

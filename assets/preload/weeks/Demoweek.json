@@ -1,0 +1,49 @@
+{
+	"storyName": "Transdimensinal Terror",
+	"difficulties": "Abyssal",
+	"hideFreeplay": false,
+	"weekBackground": "imanoldmanplzstahpkiddies",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Disturbance",
+			"demo",
+			[
+				157,
+				16,
+				0
+			]
+		],
+		[
+			"Upside Down",
+			"demo",
+			[
+				157,
+				16,
+				0
+			]
+		],
+		[
+			"Without A Trace",
+			"demo",
+			[
+				157,
+				16,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Demoweek"
+}

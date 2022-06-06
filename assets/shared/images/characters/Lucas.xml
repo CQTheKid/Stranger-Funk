@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Lucas.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Luasparty Right0000" x="0" y="0" width="298" height="392"/>
+	<SubTexture name="Luasparty Right0001" x="0" y="0" width="298" height="392"/>
+	<SubTexture name="Luasparty Right0002" x="298" y="0" width="291" height="390" frameX="0" frameY="-2" frameWidth="298" frameHeight="392"/>
+	<SubTexture name="Luasparty Right0003" x="298" y="0" width="291" height="390" frameX="0" frameY="-2" frameWidth="298" frameHeight="392"/>
+	<SubTexture name="Luasparty Right0004" x="589" y="0" width="282" height="384" frameX="0" frameY="-8" frameWidth="298" frameHeight="392"/>
+	<SubTexture name="Luasparty Right0005" x="589" y="0" width="282" height="384" frameX="0" frameY="-8" frameWidth="298" frameHeight="392"/>
+	<SubTexture name="Luasparty Right0006" x="589" y="0" width="282" height="384" frameX="0" frameY="-8" frameWidth="298" frameHeight="392"/>
+	<SubTexture name="Luasparty Right0007" x="589" y="0" width="282" height="384" frameX="0" frameY="-8" frameWidth="298" frameHeight="392"/>
+	<SubTexture name="Luasparty Right0008" x="589" y="0" width="282" height="384" frameX="0" frameY="-8" frameWidth="298" frameHeight="392"/>
+	<SubTexture name="Luasparty Right0009" x="589" y="0" width="282" height="384" frameX="0" frameY="-8" frameWidth="298" frameHeight="392"/>
+	<SubTexture name="Lucasparty Down0000" x="871" y="0" width="294" height="423" frameX="0" frameY="-4" frameWidth="294" frameHeight="428"/>
+	<SubTexture name="Lucasparty Down0001" x="871" y="0" width="294" height="423" frameX="0" frameY="-4" frameWidth="294" frameHeight="428"/>
+	<SubTexture name="Lucasparty Down0002" x="1165" y="0" width="286" height="421" frameX="-6" frameY="-6" frameWidth="294" frameHeight="428"/>
+	<SubTexture name="Lucasparty Down0003" x="1165" y="0" width="286" height="421" frameX="-6" frameY="-6" frameWidth="294" frameHeight="428"/>
+	<SubTexture name="Lucasparty Down0004" x="1451" y="0" width="284" height="428" frameX="-8" frameY="0" frameWidth="294" frameHeight="428"/>
+	<SubTexture name="Lucasparty Down0005" x="1451" y="0" width="284" height="428" frameX="-8" frameY="0" frameWidth="294" frameHeight="428"/>
+	<SubTexture name="Lucasparty Down0006" x="1451" y="0" width="284" height="428" frameX="-8" frameY="0" frameWidth="294" frameHeight="428"/>
+	<SubTexture name="Lucasparty Down0007" x="1451" y="0" width="284" height="428" frameX="-8" frameY="0" frameWidth="294" frameHeight="428"/>
+	<SubTexture name="Lucasparty Down0008" x="1451" y="0" width="284" height="428" frameX="-8" frameY="0" frameWidth="294" frameHeight="428"/>
+	<SubTexture name="Lucasparty Down0009" x="1451" y="0" width="284" height="428" frameX="-8" frameY="0" frameWidth="294" frameHeight="428"/>
+	<SubTexture name="Lucasparty Idle0000" x="1735" y="0" width="328" height="361" frameX="0" frameY="0" frameWidth="328" frameHeight="362"/>
+	<SubTexture name="Lucasparty Idle0001" x="1735" y="0" width="328" height="361" frameX="0" frameY="0" frameWidth="328" frameHeight="362"/>
+	<SubTexture name="Lucasparty Idle0002" x="2063" y="0" width="325" height="361" frameX="-3" frameY="0" frameWidth="328" frameHeight="362"/>
+	<SubTexture name="Lucasparty Idle0003" x="2063" y="0" width="325" height="361" frameX="-3" frameY="0" frameWidth="328" frameHeight="362"/>
+	<SubTexture name="Lucasparty Idle0004" x="2388" y="0" width="314" height="362" frameX="-14" frameY="0" frameWidth="328" frameHeight="362"/>
+	<SubTexture name="Lucasparty Idle0005" x="2388" y="0" width="314" height="362" frameX="-14" frameY="0" frameWidth="328" frameHeight="362"/>
+	<SubTexture name="Lucasparty Idle0006" x="2388" y="0" width="314" height="362" frameX="-14" frameY="0" frameWidth="328" frameHeight="362"/>
+	<SubTexture name="Lucasparty Idle0007" x="2388" y="0" width="314" height="362" frameX="-14" frameY="0" frameWidth="328" frameHeight="362"/>
+	<SubTexture name="Lucasparty Idle0008" x="2388" y="0" width="314" height="362" frameX="-14" frameY="0" frameWidth="328" frameHeight="362"/>
+	<SubTexture name="Lucasparty Idle0009" x="2388" y="0" width="314" height="362" frameX="-14" frameY="0" frameWidth="328" frameHeight="362"/>
+	<SubTexture name="Lucasparty Up0000" x="2702" y="0" width="350" height="451" frameX="-5" frameY="0" frameWidth="360" frameHeight="451"/>
+	<SubTexture name="Lucasparty Up0001" x="2702" y="0" width="350" height="451" frameX="-5" frameY="0" frameWidth="360" frameHeight="451"/>
+	<SubTexture name="Lucasparty Up0002" x="3052" y="0" width="360" height="449" frameX="0" frameY="-2" frameWidth="360" frameHeight="451"/>
+	<SubTexture name="Lucasparty Up0003" x="3052" y="0" width="360" height="449" frameX="0" frameY="-2" frameWidth="360" frameHeight="451"/>
+	<SubTexture name="Lucasparty Up0004" x="3412" y="0" width="360" height="445" frameX="0" frameY="-6" frameWidth="360" frameHeight="451"/>
+	<SubTexture name="Lucasparty Up0005" x="3412" y="0" width="360" height="445" frameX="0" frameY="-6" frameWidth="360" frameHeight="451"/>
+	<SubTexture name="Lucasparty Up0006" x="3412" y="0" width="360" height="445" frameX="0" frameY="-6" frameWidth="360" frameHeight="451"/>
+	<SubTexture name="Lucasparty Up0007" x="3412" y="0" width="360" height="445" frameX="0" frameY="-6" frameWidth="360" frameHeight="451"/>
+	<SubTexture name="Lucasparty Up0008" x="3412" y="0" width="360" height="445" frameX="0" frameY="-6" frameWidth="360" frameHeight="451"/>
+	<SubTexture name="Lucasparty Up0009" x="3412" y="0" width="360" height="445" frameX="0" frameY="-6" frameWidth="360" frameHeight="451"/>
+	<SubTexture name="Luxasparty Left0000" x="3772" y="0" width="391" height="422"/>
+	<SubTexture name="Luxasparty Left0001" x="3772" y="0" width="391" height="422"/>
+	<SubTexture name="Luxasparty Left0002" x="4163" y="0" width="384" height="420" frameX="-7" frameY="-2" frameWidth="391" frameHeight="422"/>
+	<SubTexture name="Luxasparty Left0003" x="4163" y="0" width="384" height="420" frameX="-7" frameY="-2" frameWidth="391" frameHeight="422"/>
+	<SubTexture name="Luxasparty Left0004" x="4547" y="0" width="380" height="416" frameX="-11" frameY="-6" frameWidth="391" frameHeight="422"/>
+	<SubTexture name="Luxasparty Left0005" x="4547" y="0" width="380" height="416" frameX="-11" frameY="-6" frameWidth="391" frameHeight="422"/>
+	<SubTexture name="Luxasparty Left0006" x="4547" y="0" width="380" height="416" frameX="-11" frameY="-6" frameWidth="391" frameHeight="422"/>
+	<SubTexture name="Luxasparty Left0007" x="4547" y="0" width="380" height="416" frameX="-11" frameY="-6" frameWidth="391" frameHeight="422"/>
+	<SubTexture name="Luxasparty Left0008" x="4547" y="0" width="380" height="416" frameX="-11" frameY="-6" frameWidth="391" frameHeight="422"/>
+	<SubTexture name="Luxasparty Left0009" x="4547" y="0" width="380" height="416" frameX="-11" frameY="-6" frameWidth="391" frameHeight="422"/>
+</TextureAtlas>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DustinArm.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DustinArm Down0000" x="0" y="0" width="127" height="120" frameX="-1" frameY="0" frameWidth="128" frameHeight="120"/>
+	<SubTexture name="DustinArm Down0001" x="0" y="0" width="127" height="120" frameX="-1" frameY="0" frameWidth="128" frameHeight="120"/>
+	<SubTexture name="DustinArm Down0002" x="127" y="0" width="125" height="119" frameX="0" frameY="-1" frameWidth="128" frameHeight="120"/>
+	<SubTexture name="DustinArm Down0003" x="127" y="0" width="125" height="119" frameX="0" frameY="-1" frameWidth="128" frameHeight="120"/>
+	<SubTexture name="DustinArm Down0004" x="252" y="0" width="122" height="114" frameX="-2" frameY="-1" frameWidth="128" frameHeight="120"/>
+	<SubTexture name="DustinArm Down0005" x="252" y="0" width="122" height="114" frameX="-2" frameY="-1" frameWidth="128" frameHeight="120"/>
+	<SubTexture name="DustinArm Down0006" x="252" y="0" width="122" height="114" frameX="-2" frameY="-1" frameWidth="128" frameHeight="120"/>
+	<SubTexture name="DustinArm Down0007" x="252" y="0" width="122" height="114" frameX="-2" frameY="-1" frameWidth="128" frameHeight="120"/>
+	<SubTexture name="DustinArm Down0008" x="252" y="0" width="122" height="114" frameX="-2" frameY="-1" frameWidth="128" frameHeight="120"/>
+	<SubTexture name="DustinArm Down0009" x="252" y="0" width="122" height="114" frameX="-2" frameY="-1" frameWidth="128" frameHeight="120"/>
+	<SubTexture name="DustinArm Idle0000" x="374" y="0" width="135" height="125" frameX="-1" frameY="0" frameWidth="136" frameHeight="125"/>
+	<SubTexture name="DustinArm Idle0001" x="374" y="0" width="135" height="125" frameX="-1" frameY="0" frameWidth="136" frameHeight="125"/>
+	<SubTexture name="DustinArm Idle0002" x="509" y="0" width="129" height="120" frameX="0" frameY="-5" frameWidth="136" frameHeight="125"/>
+	<SubTexture name="DustinArm Idle0003" x="509" y="0" width="129" height="120" frameX="0" frameY="-5" frameWidth="136" frameHeight="125"/>
+	<SubTexture name="DustinArm Idle0004" x="638" y="0" width="124" height="113" frameX="-4" frameY="-3" frameWidth="136" frameHeight="125"/>
+	<SubTexture name="DustinArm Idle0005" x="638" y="0" width="124" height="113" frameX="-4" frameY="-3" frameWidth="136" frameHeight="125"/>
+	<SubTexture name="DustinArm Idle0006" x="638" y="0" width="124" height="113" frameX="-4" frameY="-3" frameWidth="136" frameHeight="125"/>
+	<SubTexture name="DustinArm Idle0007" x="638" y="0" width="124" height="113" frameX="-4" frameY="-3" frameWidth="136" frameHeight="125"/>
+	<SubTexture name="DustinArm Idle0008" x="638" y="0" width="124" height="113" frameX="-4" frameY="-3" frameWidth="136" frameHeight="125"/>
+	<SubTexture name="DustinArm Idle0009" x="638" y="0" width="124" height="113" frameX="-4" frameY="-3" frameWidth="136" frameHeight="125"/>
+	<SubTexture name="DustinArm Left0000" x="762" y="0" width="94" height="67"/>
+	<SubTexture name="DustinArm Left0001" x="762" y="0" width="94" height="67"/>
+	<SubTexture name="DustinArm Left0002" x="856" y="0" width="92" height="65" frameX="-1" frameY="-2" frameWidth="94" frameHeight="67"/>
+	<SubTexture name="DustinArm Left0003" x="856" y="0" width="92" height="65" frameX="-1" frameY="-2" frameWidth="94" frameHeight="67"/>
+	<SubTexture name="DustinArm Left0004" x="948" y="0" width="90" height="62" frameX="-2" frameY="-3" frameWidth="94" frameHeight="67"/>
+	<SubTexture name="DustinArm Left0005" x="948" y="0" width="90" height="62" frameX="-2" frameY="-3" frameWidth="94" frameHeight="67"/>
+	<SubTexture name="DustinArm Left0006" x="948" y="0" width="90" height="62" frameX="-2" frameY="-3" frameWidth="94" frameHeight="67"/>
+	<SubTexture name="DustinArm Left0007" x="948" y="0" width="90" height="62" frameX="-2" frameY="-3" frameWidth="94" frameHeight="67"/>
+	<SubTexture name="DustinArm Left0008" x="948" y="0" width="90" height="62" frameX="-2" frameY="-3" frameWidth="94" frameHeight="67"/>
+	<SubTexture name="DustinArm Left0009" x="948" y="0" width="90" height="62" frameX="-2" frameY="-3" frameWidth="94" frameHeight="67"/>
+	<SubTexture name="DustinArm Right0000" x="1038" y="0" width="130" height="186" frameX="-3" frameY="0" frameWidth="133" frameHeight="186"/>
+	<SubTexture name="DustinArm Right0001" x="1038" y="0" width="130" height="186" frameX="-3" frameY="0" frameWidth="133" frameHeight="186"/>
+	<SubTexture name="DustinArm Right0002" x="1168" y="0" width="115" height="178" frameX="0" frameY="-4" frameWidth="133" frameHeight="186"/>
+	<SubTexture name="DustinArm Right0003" x="1168" y="0" width="115" height="178" frameX="0" frameY="-4" frameWidth="133" frameHeight="186"/>
+	<SubTexture name="DustinArm Right0004" x="1283" y="0" width="107" height="173" frameX="-1" frameY="-8" frameWidth="133" frameHeight="186"/>
+	<SubTexture name="DustinArm Right0005" x="1283" y="0" width="107" height="173" frameX="-1" frameY="-8" frameWidth="133" frameHeight="186"/>
+	<SubTexture name="DustinArm Right0006" x="1283" y="0" width="107" height="173" frameX="-1" frameY="-8" frameWidth="133" frameHeight="186"/>
+	<SubTexture name="DustinArm Right0007" x="1283" y="0" width="107" height="173" frameX="-1" frameY="-8" frameWidth="133" frameHeight="186"/>
+	<SubTexture name="DustinArm Right0008" x="1283" y="0" width="107" height="173" frameX="-1" frameY="-8" frameWidth="133" frameHeight="186"/>
+	<SubTexture name="DustinArm Right0009" x="1283" y="0" width="107" height="173" frameX="-1" frameY="-8" frameWidth="133" frameHeight="186"/>
+	<SubTexture name="DustinArm Up0000" x="1390" y="0" width="132" height="195" frameX="0" frameY="0" frameWidth="134" frameHeight="196"/>
+	<SubTexture name="DustinArm Up0001" x="1390" y="0" width="132" height="195" frameX="0" frameY="0" frameWidth="134" frameHeight="196"/>
+	<SubTexture name="DustinArm Up0002" x="1522" y="0" width="128" height="193" frameX="-6" frameY="-2" frameWidth="134" frameHeight="196"/>
+	<SubTexture name="DustinArm Up0003" x="1522" y="0" width="128" height="193" frameX="-6" frameY="-2" frameWidth="134" frameHeight="196"/>
+	<SubTexture name="DustinArm Up0004" x="1650" y="0" width="124" height="190" frameX="-10" frameY="-6" frameWidth="134" frameHeight="196"/>
+	<SubTexture name="DustinArm Up0005" x="1650" y="0" width="124" height="190" frameX="-10" frameY="-6" frameWidth="134" frameHeight="196"/>
+	<SubTexture name="DustinArm Up0006" x="1650" y="0" width="124" height="190" frameX="-10" frameY="-6" frameWidth="134" frameHeight="196"/>
+	<SubTexture name="DustinArm Up0007" x="1650" y="0" width="124" height="190" frameX="-10" frameY="-6" frameWidth="134" frameHeight="196"/>
+	<SubTexture name="DustinArm Up0008" x="1650" y="0" width="124" height="190" frameX="-10" frameY="-6" frameWidth="134" frameHeight="196"/>
+	<SubTexture name="DustinArm Up0009" x="1650" y="0" width="124" height="190" frameX="-10" frameY="-6" frameWidth="134" frameHeight="196"/>
+</TextureAtlas>

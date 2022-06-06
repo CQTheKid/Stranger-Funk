@@ -1,2 +1,3 @@
-weekUpsideDown
+Demoweek
+Mikeweek
 weekRetrograde

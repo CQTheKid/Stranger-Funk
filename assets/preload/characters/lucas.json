@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				74,
+				-51
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Luxasparty Left"
+		},
+		{
+			"offsets": [
+				-56,
+				-73
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Lucasparty Down"
+		},
+		{
+			"offsets": [
+				-11,
+				29
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Lucasparty Up"
+		},
+		{
+			"offsets": [
+				-108,
+				-55
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Luasparty Right"
+		},
+		{
+			"offsets": [
+				-9,
+				-107
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Lucasparty Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Lucas",
+	"position": [
+		-20,
+		-160
+	],
+	"healthicon": "lucas",
+	"flip_x": false,
+	"healthbar_colors": [
+		118,
+		72,
+		139
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

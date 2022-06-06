@@ -101,10 +101,10 @@ class MainMenuState extends MusicBeatState
 		freeplayButton.updateHitbox();
 		add(freeplayButton);
 
-		if (FlxG.random.bool(0.1))
-			gaunletButton = new FlxSprite(freeplayButton.x + 325, storyButton.y + 7).loadGraphic(Paths.image('mainmenu/guanlet'));
-		else
-			gaunletButton = new FlxSprite(freeplayButton.x + 325, storyButton.y + 7).loadGraphic(Paths.image('mainmenu/gauntlet'));
+		// if (FlxG.random.bool(0.1))
+		//	gaunletButton = new FlxSprite(freeplayButton.x + 325, storyButton.y + 7).loadGraphic(Paths.image('mainmenu/guanlet'));
+		// else
+		gaunletButton = new FlxSprite(freeplayButton.x + 325, storyButton.y + 7).loadGraphic(Paths.image('mainmenu/gauntletlocked'));
 		gaunletButton.setGraphicSize(Std.int(gaunletButton.height * 0.27));
 		gaunletButton.updateHitbox();
 		add(gaunletButton);
@@ -119,7 +119,12 @@ class MainMenuState extends MusicBeatState
 		creditsButton.updateHitbox();
 		add(creditsButton);
 
-		warningText = new FlxText(0, 675, 0, "Use Your Mouse To Select The Menu Buttons!", 28);
+		fuckingHilariousButton = new FlxSprite(creditsButton.x - 490, creditsButton.y).loadGraphic(Paths.image('mainmenu/Tonybutton'));
+		fuckingHilariousButton.setGraphicSize(Std.int(fuckingHilariousButton.width * 0.45));
+		fuckingHilariousButton.updateHitbox();
+		add(fuckingHilariousButton);
+
+		warningText = new FlxText(0, 680, 0, "Use Your Mouse To Select The Menu Buttons!", 28);
 		warningText.scrollFactor.set();
 		warningText.setFormat("VCR OSD Mono", 28, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		warningText.screenCenter(X);
@@ -187,6 +192,7 @@ class MainMenuState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
 			FlxFlicker.flicker(freeplayButton, 1, 0.06, false, false, function(flick:FlxFlicker)
 			{
+				FlxG.mouse.visible = false;
 				MusicBeatState.switchState(new FreeplayState());
 				somethingSelected = false;
 			});
@@ -194,14 +200,9 @@ class MainMenuState extends MusicBeatState
 
 		if (FlxG.mouse.justPressed && FlxG.mouse.overlaps(gaunletButton) && !somethingSelected)
 		{
-			somethingSelected = true;
-			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
-			FlxFlicker.flicker(gaunletButton, 1, 0.06, false, false, function(flick:FlxFlicker)
-			{
-				// MusicBeatState.switchState(new StoryMenuState());
-				FlxG.sound.play(Paths.sound('gauntletWarning'));
-				somethingSelected = false;
-			});
+			// MusicBeatState.switchState(new StoryMenuState());
+			FlxG.sound.play(Paths.sound('cancelMenu'));
+			FlxG.camera.shake(0.025);
 		}
 
 		if (FlxG.mouse.justPressed && FlxG.mouse.overlaps(settingButton) && !somethingSelected)
@@ -210,6 +211,7 @@ class MainMenuState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
 			FlxFlicker.flicker(settingButton, 1, 0.06, false, false, function(flick:FlxFlicker)
 			{
+				FlxG.mouse.visible = false;
 				LoadingState.loadAndSwitchState(new options.OptionsState());
 				somethingSelected = false;
 			});
@@ -221,7 +223,20 @@ class MainMenuState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
 			FlxFlicker.flicker(creditsButton, 1, 0.06, false, false, function(flick:FlxFlicker)
 			{
+				FlxG.mouse.visible = false;
 				MusicBeatState.switchState(new CreditsState());
+				somethingSelected = false;
+			});
+		}
+
+		if (FlxG.mouse.justPressed && FlxG.mouse.overlaps(fuckingHilariousButton) && !somethingSelected)
+		{
+			somethingSelected = true;
+			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
+			FlxFlicker.flicker(fuckingHilariousButton, 1, 0.06, false, false, function(flick:FlxFlicker)
+			{
+				FlxG.sound.play(Paths.sound('gauntletWarning'));
+				FlxG.camera.shake(0.025);
 				somethingSelected = false;
 			});
 		}
@@ -237,10 +252,5 @@ class MainMenuState extends MusicBeatState
 
 		notScientificallyPossible += 180 * elapsed;
 		warningText.alpha = 1 - Math.sin((Math.PI * notScientificallyPossible) / 180);
-
-		/*
-			FlxG.sound.play(Paths.sound('gauntletWarning'));
-			FlxG.camera.shake(0.025);
-		 */
 	}
 }

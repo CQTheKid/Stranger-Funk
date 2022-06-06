@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-42,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BFparty Idle"
+		},
+		{
+			"offsets": [
+				-41,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BFparty Left"
+		},
+		{
+			"offsets": [
+				-41,
+				21
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BFparty Down"
+		},
+		{
+			"offsets": [
+				-41,
+				28
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BFparty Up"
+		},
+		{
+			"offsets": [
+				-42,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BFparty Right"
+		},
+		{
+			"offsets": [
+				-43,
+				23
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Bfparty Miss Left"
+		},
+		{
+			"offsets": [
+				-43,
+				17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Bfparty Miss Down"
+		},
+		{
+			"offsets": [
+				-43,
+				24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Bfparty Miss Up"
+		},
+		{
+			"offsets": [
+				-43,
+				22
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Bfparty Miss Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BFparty",
+	"position": [
+		0,
+		80
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-150,
+		-220
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				197,
 				51
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Demo Left"
+			"fps": 24,
+			"name": "Demo Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-21,
 				-216
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Demo Down"
+			"fps": 24,
+			"name": "Demo Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-4,
 				32
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Demo Up"
+			"fps": 24,
+			"name": "Demo Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				2
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Demo Right"
+			"fps": 24,
+			"name": "Demo Right",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-9,
 				-107
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Demo Idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Demo Idle"
 		}
 	],
 	"no_antialiasing": false,
@@ -70,8 +70,8 @@
 		0
 	],
 	"camera_position": [
-		0,
-		0
+		100,
+		160
 	],
 	"sing_duration": 4,
 	"scale": 1

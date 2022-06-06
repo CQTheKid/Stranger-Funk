@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Mike.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mikeparty Down0000" x="0" y="0" width="308" height="298" frameX="0" frameY="-4" frameWidth="308" frameHeight="303"/>
+	<SubTexture name="Mikeparty Down0001" x="0" y="0" width="308" height="298" frameX="0" frameY="-4" frameWidth="308" frameHeight="303"/>
+	<SubTexture name="Mikeparty Down0002" x="308" y="0" width="303" height="298" frameX="-2" frameY="-4" frameWidth="308" frameHeight="303"/>
+	<SubTexture name="Mikeparty Down0003" x="308" y="0" width="303" height="298" frameX="-2" frameY="-4" frameWidth="308" frameHeight="303"/>
+	<SubTexture name="Mikeparty Down0004" x="611" y="0" width="303" height="303" frameX="-2" frameY="0" frameWidth="308" frameHeight="303"/>
+	<SubTexture name="Mikeparty Down0005" x="611" y="0" width="303" height="303" frameX="-2" frameY="0" frameWidth="308" frameHeight="303"/>
+	<SubTexture name="Mikeparty Down0006" x="611" y="0" width="303" height="303" frameX="-2" frameY="0" frameWidth="308" frameHeight="303"/>
+	<SubTexture name="Mikeparty Down0007" x="611" y="0" width="303" height="303" frameX="-2" frameY="0" frameWidth="308" frameHeight="303"/>
+	<SubTexture name="Mikeparty Down0008" x="611" y="0" width="303" height="303" frameX="-2" frameY="0" frameWidth="308" frameHeight="303"/>
+	<SubTexture name="Mikeparty Down0009" x="611" y="0" width="303" height="303" frameX="-2" frameY="0" frameWidth="308" frameHeight="303"/>
+	<SubTexture name="Mikeparty Idle0000" x="914" y="0" width="310" height="276" frameX="0" frameY="-7" frameWidth="310" frameHeight="283"/>
+	<SubTexture name="Mikeparty Idle0001" x="914" y="0" width="310" height="276" frameX="0" frameY="-7" frameWidth="310" frameHeight="283"/>
+	<SubTexture name="Mikeparty Idle0002" x="1224" y="0" width="302" height="278" frameX="-4" frameY="-5" frameWidth="310" frameHeight="283"/>
+	<SubTexture name="Mikeparty Idle0003" x="1224" y="0" width="302" height="278" frameX="-4" frameY="-5" frameWidth="310" frameHeight="283"/>
+	<SubTexture name="Mikeparty Idle0004" x="1526" y="0" width="302" height="283" frameX="-4" frameY="0" frameWidth="310" frameHeight="283"/>
+	<SubTexture name="Mikeparty Idle0005" x="1526" y="0" width="302" height="283" frameX="-4" frameY="0" frameWidth="310" frameHeight="283"/>
+	<SubTexture name="Mikeparty Idle0006" x="1526" y="0" width="302" height="283" frameX="-4" frameY="0" frameWidth="310" frameHeight="283"/>
+	<SubTexture name="Mikeparty Idle0007" x="1526" y="0" width="302" height="283" frameX="-4" frameY="0" frameWidth="310" frameHeight="283"/>
+	<SubTexture name="Mikeparty Idle0008" x="1526" y="0" width="302" height="283" frameX="-4" frameY="0" frameWidth="310" frameHeight="283"/>
+	<SubTexture name="Mikeparty Idle0009" x="1526" y="0" width="302" height="283" frameX="-4" frameY="0" frameWidth="310" frameHeight="283"/>
+	<SubTexture name="Mikeparty Left0000" x="1828" y="0" width="353" height="306"/>
+	<SubTexture name="Mikeparty Left0001" x="1828" y="0" width="353" height="306"/>
+	<SubTexture name="Mikeparty Left0002" x="2181" y="0" width="350" height="305" frameX="-3" frameY="-1" frameWidth="353" frameHeight="306"/>
+	<SubTexture name="Mikeparty Left0003" x="2181" y="0" width="350" height="305" frameX="-3" frameY="-1" frameWidth="353" frameHeight="306"/>
+	<SubTexture name="Mikeparty Left0004" x="2531" y="0" width="350" height="305" frameX="-3" frameY="0" frameWidth="353" frameHeight="306"/>
+	<SubTexture name="Mikeparty Left0005" x="2531" y="0" width="350" height="305" frameX="-3" frameY="0" frameWidth="353" frameHeight="306"/>
+	<SubTexture name="Mikeparty Left0006" x="2531" y="0" width="350" height="305" frameX="-3" frameY="0" frameWidth="353" frameHeight="306"/>
+	<SubTexture name="Mikeparty Left0007" x="2531" y="0" width="350" height="305" frameX="-3" frameY="0" frameWidth="353" frameHeight="306"/>
+	<SubTexture name="Mikeparty Left0008" x="2531" y="0" width="350" height="305" frameX="-3" frameY="0" frameWidth="353" frameHeight="306"/>
+	<SubTexture name="Mikeparty Left0009" x="2531" y="0" width="350" height="305" frameX="-3" frameY="0" frameWidth="353" frameHeight="306"/>
+	<SubTexture name="Mikeparty Right0000" x="2881" y="0" width="375" height="323"/>
+	<SubTexture name="Mikeparty Right0001" x="2881" y="0" width="375" height="323"/>
+	<SubTexture name="Mikeparty Right0002" x="3256" y="0" width="372" height="323" frameX="0" frameY="0" frameWidth="375" frameHeight="323"/>
+	<SubTexture name="Mikeparty Right0003" x="3256" y="0" width="372" height="323" frameX="0" frameY="0" frameWidth="375" frameHeight="323"/>
+	<SubTexture name="Mikeparty Right0004" x="3628" y="0" width="372" height="323" frameX="0" frameY="0" frameWidth="375" frameHeight="323"/>
+	<SubTexture name="Mikeparty Right0005" x="3628" y="0" width="372" height="323" frameX="0" frameY="0" frameWidth="375" frameHeight="323"/>
+	<SubTexture name="Mikeparty Right0006" x="3628" y="0" width="372" height="323" frameX="0" frameY="0" frameWidth="375" frameHeight="323"/>
+	<SubTexture name="Mikeparty Right0007" x="3628" y="0" width="372" height="323" frameX="0" frameY="0" frameWidth="375" frameHeight="323"/>
+	<SubTexture name="Mikeparty Right0008" x="3628" y="0" width="372" height="323" frameX="0" frameY="0" frameWidth="375" frameHeight="323"/>
+	<SubTexture name="Mikeparty Right0009" x="3628" y="0" width="372" height="323" frameX="0" frameY="0" frameWidth="375" frameHeight="323"/>
+	<SubTexture name="Mikeparty Up0000" x="4000" y="0" width="282" height="327" frameX="-5" frameY="0" frameWidth="292" frameHeight="327"/>
+	<SubTexture name="Mikeparty Up0001" x="4000" y="0" width="282" height="327" frameX="-5" frameY="0" frameWidth="292" frameHeight="327"/>
+	<SubTexture name="Mikeparty Up0002" x="4282" y="0" width="292" height="327"/>
+	<SubTexture name="Mikeparty Up0003" x="4282" y="0" width="292" height="327"/>
+	<SubTexture name="Mikeparty Up0004" x="4574" y="0" width="292" height="323" frameX="0" frameY="-4" frameWidth="292" frameHeight="327"/>
+	<SubTexture name="Mikeparty Up0005" x="4574" y="0" width="292" height="323" frameX="0" frameY="-4" frameWidth="292" frameHeight="327"/>
+	<SubTexture name="Mikeparty Up0006" x="4574" y="0" width="292" height="323" frameX="0" frameY="-4" frameWidth="292" frameHeight="327"/>
+	<SubTexture name="Mikeparty Up0007" x="4574" y="0" width="292" height="323" frameX="0" frameY="-4" frameWidth="292" frameHeight="327"/>
+	<SubTexture name="Mikeparty Up0008" x="4574" y="0" width="292" height="323" frameX="0" frameY="-4" frameWidth="292" frameHeight="327"/>
+	<SubTexture name="Mikeparty Up0009" x="4574" y="0" width="292" height="323" frameX="0" frameY="-4" frameWidth="292" frameHeight="327"/>
+</TextureAtlas>

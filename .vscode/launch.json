@@ -21,7 +21,7 @@
 			"name": "HXCPP",
 			"type": "hxcpp",
 			"request": "launch",
-			"program": "${workspaceFolder}/export/debug/windows/bin/STRANGER FUNKS.exe"
+			"program": "${workspaceFolder}/export/debug/windows/bin/Stranger Funks.exe"
 		}
 	]
 }
