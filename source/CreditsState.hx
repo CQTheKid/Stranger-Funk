@@ -87,22 +87,29 @@ class CreditsState extends MusicBeatState
 			["Team Genesis"],
 			[
 				'Baranamo',
-				'BaraHead',
+				'TonyIcon',
 				'Lead Artist, Lead Musician, And Mod Director',
 				'https://bio.link/baranamo',
-				'E1691B'
+				'fff0fe'
 			],
 			[
 				'SleppyDan',
-				'DanHead',
-				'Charter And Musician',
-				'https://instagram.com/sleppy_dan?utm_medium=copy_link',
-				'D82ECE'
+				'DanIcon',
+				'Charter And Secondary Musician',
+				'https://www.youtube.com/channel/UCrHcx11uEFtZa0SEyAah6ww',
+				'c82f86'
 			],
 			[
-				'Masegovia',
-				'MaseHead',
-				'Programmer For Earlier Builds',
+				'CQ The Kid',
+				'CQIcon',
+				'Final Build Programmer and Legend',
+				'https://www.youtube.com/channel/UCZlhI-rvPNKu5rRo4rW8syQ',
+				'8f0ffc'
+			],
+			[
+				'WeldedFlap',
+				'WeldedIcon',
+				'Final Build Assistant Programmer, also a Legend.',
 				'https://twitter.com/masegovia2007?s=21',
 				'FDDD7A'
 			],
@@ -114,18 +121,18 @@ class CreditsState extends MusicBeatState
 				'545454'
 			],
 			[
-				'Nayu',
-				'NayuHead',
-				'Assistant Musician',
-				'https://twitter.com/RickyRiddd',
-				'FF8CE0'
+				'iSoupreme',
+				'SoupIcon',
+				'Assistant Artist',
+				'https://www.youtube.com/channel/UCxd0C2bt-YT4gibSfr6fGbQ',
+				'F5d6f3a'
 			],
 			[
 				'Magbros.ogg',
-				'MagHead',
+				'MagHeadTheTrueLegendFromFarFarAway',
 				'Legacy Tracks Musician',
 				'https://twitter.com/magbros78?s=21',
-				'E15145'
+				'e15145'
 			],
 			[''],
 			['Psych Engine Team'],

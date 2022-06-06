@@ -233,7 +233,7 @@ class MainMenuState extends MusicBeatState
 		{
 			somethingSelected = true;
 			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
-			FlxFlicker.flicker(fuckingHilariousButton, 1, 0.06, false, false, function(flick:FlxFlicker)
+			FlxFlicker.flicker(fuckingHilariousButton, 1, 0.06, true, false, function(flick:FlxFlicker)
 			{
 				FlxG.sound.play(Paths.sound('gauntletWarning'));
 				FlxG.camera.shake(0.025);

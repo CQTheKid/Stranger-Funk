@@ -116,7 +116,9 @@ class ChartingState extends MusicBeatState
 			'Change Scroll Speed',
 			"Value 1: Scroll Speed Multiplier (1 is default)\nValue 2: Time it takes to change fully in seconds."
 		],
-		['Change Health Icons', "Value 1: Character."]
+		['Change Health Icons', "Value 1: Character."],
+		['First Transition'],
+		['Second Transition']
 	];
 
 	var _file:FileReference;

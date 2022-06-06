@@ -3,18 +3,14 @@
 	"difficulties": "Abyssal",
 	"hideFreeplay": false,
 	"weekBackground": "sf",
+	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"hideStoryMode": true,
 	"songs": [
 		[
 			"Retrograde",
@@ -26,16 +22,29 @@
 			]
 		],
 		[
-			"Spine Chill",
-			"flayer",
+			"Hysteria",
+			"demo",
 			[
 				34,
 				34,
 				57
 			]
+		],
+		[
+			"Spine Chill",
+			"flayer",
+			[
+				146,
+				113,
+				253
+			]
 		]
 	],
-	"hideStoryMode": true,
-	"weekName": "Retrograde",
-	"hiddenUntilUnlocked": false
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Retrograde"
 }

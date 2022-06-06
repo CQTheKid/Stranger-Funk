@@ -1,69 +1,68 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				25
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Atari bf Up Miss",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Atari bf Up Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-13,
 				7
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Atari bf Left Miss",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Atari bf Left Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				11
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Atari bf Down Miss",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Atari bf Down Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				63,
 				8
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Atari bf Right Miss",
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Atari bf Right Miss"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Atari bf Idle",
 			"indices": []
 		},
 		{
 			"offsets": [
-				0,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "Atari bf Idle"
-		},
-		{
-			"loop": false,
-			"offsets": [
 				50,
 				2
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Atari bf Right",
 			"indices": [
 				1,
 				2,
@@ -79,17 +78,17 @@
 				12,
 				13,
 				14
-			]
+			],
+			"name": "Atari bf Right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				11,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Atari bf Left",
 			"indices": [
 				1,
 				2,
@@ -105,17 +104,17 @@
 				12,
 				13,
 				14
-			]
+			],
+			"name": "Atari bf Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				13,
 				0
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Atari bf Down",
+			"anim": "singDOWN",
 			"indices": [
 				1,
 				2,
@@ -131,17 +130,17 @@
 				12,
 				13,
 				14
-			]
+			],
+			"name": "Atari bf Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				25
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Atari bf Up",
+			"anim": "singUP",
 			"indices": [
 				1,
 				2,
@@ -157,7 +156,8 @@
 				12,
 				13,
 				14
-			]
+			],
+			"name": "Atari bf Up"
 		}
 	],
 	"no_antialiasing": true,
@@ -175,7 +175,7 @@
 	],
 	"camera_position": [
 		60,
-		140
+		-10
 	],
 	"sing_duration": 4,
 	"scale": 0.8

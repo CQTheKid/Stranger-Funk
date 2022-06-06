@@ -290,7 +290,7 @@ class StoryMenuState extends MusicBeatState
 
 			if (FlxG.mouse.justPressed && FlxG.mouse.overlaps(DemoWeekButton))
 			{
-				changeWeek(-1);
+				changeWeektoWeek0();
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 				FlxFlicker.flicker(DemoWeekButton, 1, 0.06, true, false, function(flick:FlxFlicker)
 				{
@@ -299,7 +299,7 @@ class StoryMenuState extends MusicBeatState
 
 			if (FlxG.mouse.justPressed && FlxG.mouse.overlaps(MikeWeekButton))
 			{
-				changeWeek(1);
+				changeWeektoWeek1();
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 				FlxFlicker.flicker(MikeWeekButton, 1, 0.06, true, false, function(flick:FlxFlicker)
 				{
@@ -428,6 +428,132 @@ class StoryMenuState extends MusicBeatState
 			curWeek = 0;
 		if (curWeek < 0)
 			curWeek = WeekData.weeksList.length - 1;
+
+		var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[curWeek]);
+		WeekData.setDirectoryFromWeek(leWeek);
+
+		var leName:String = leWeek.storyName;
+		txtWeekTitle.text = leName.toUpperCase();
+		txtWeekTitle.x = FlxG.width - (txtWeekTitle.width + 10);
+
+		var bullShit:Int = 0;
+
+		for (item in grpWeekText.members)
+		{
+			item.targetY = bullShit - curWeek;
+			if (item.targetY == Std.int(0) && !weekIsLocked(curWeek))
+				item.alpha = 1;
+			else
+				item.alpha = 0.6;
+			bullShit++;
+		}
+
+		var assetName:String = leWeek.weekBackground;
+
+		PlayState.storyWeek = curWeek;
+
+		CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
+		var diffStr:String = WeekData.getCurrentWeek().difficulties;
+		if (diffStr != null)
+			diffStr = diffStr.trim(); // Fuck you HTML5
+
+		if (diffStr != null && diffStr.length > 0)
+		{
+			var diffs:Array<String> = diffStr.split(',');
+			var i:Int = diffs.length - 1;
+			while (i > 0)
+			{
+				if (diffs[i] != null)
+				{
+					diffs[i] = diffs[i].trim();
+					if (diffs[i].length < 1)
+						diffs.remove(diffs[i]);
+				}
+				--i;
+			}
+
+			if (diffs.length > 0 && diffs[0].length > 0)
+			{
+				CoolUtil.difficulties = diffs;
+			}
+		}
+
+		curDifficulty = Math.round(Math.max(0, CoolUtil.defaultDifficulties.indexOf(CoolUtil.defaultDifficulty)));
+		var newPos:Int = CoolUtil.difficulties.indexOf(lastDifficultyName);
+		// trace('Pos of ' + lastDifficultyName + ' is ' + newPos);
+		if (newPos > -1)
+		{
+			curDifficulty = newPos;
+		}
+		updateText();
+	}
+
+	function changeWeektoWeek0():Void
+	{
+		curWeek = 0;
+
+		var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[curWeek]);
+		WeekData.setDirectoryFromWeek(leWeek);
+
+		var leName:String = leWeek.storyName;
+		txtWeekTitle.text = leName.toUpperCase();
+		txtWeekTitle.x = FlxG.width - (txtWeekTitle.width + 10);
+
+		var bullShit:Int = 0;
+
+		for (item in grpWeekText.members)
+		{
+			item.targetY = bullShit - curWeek;
+			if (item.targetY == Std.int(0) && !weekIsLocked(curWeek))
+				item.alpha = 1;
+			else
+				item.alpha = 0.6;
+			bullShit++;
+		}
+
+		var assetName:String = leWeek.weekBackground;
+
+		PlayState.storyWeek = curWeek;
+
+		CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
+		var diffStr:String = WeekData.getCurrentWeek().difficulties;
+		if (diffStr != null)
+			diffStr = diffStr.trim(); // Fuck you HTML5
+
+		if (diffStr != null && diffStr.length > 0)
+		{
+			var diffs:Array<String> = diffStr.split(',');
+			var i:Int = diffs.length - 1;
+			while (i > 0)
+			{
+				if (diffs[i] != null)
+				{
+					diffs[i] = diffs[i].trim();
+					if (diffs[i].length < 1)
+						diffs.remove(diffs[i]);
+				}
+				--i;
+			}
+
+			if (diffs.length > 0 && diffs[0].length > 0)
+			{
+				CoolUtil.difficulties = diffs;
+			}
+		}
+
+		curDifficulty = Math.round(Math.max(0, CoolUtil.defaultDifficulties.indexOf(CoolUtil.defaultDifficulty)));
+		var newPos:Int = CoolUtil.difficulties.indexOf(lastDifficultyName);
+		// trace('Pos of ' + lastDifficultyName + ' is ' + newPos);
+		if (newPos > -1)
+		{
+			curDifficulty = newPos;
+		}
+		updateText();
+	}
+
+	function changeWeektoWeek1(change:Int = 0):Void
+	{
+		curWeek = 1;
 
 		var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[curWeek]);
 		WeekData.setDirectoryFromWeek(leWeek);

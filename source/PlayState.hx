@@ -238,6 +238,8 @@ class PlayState extends MusicBeatState
 	var fastCar:BGSprite;
 
 	var houseBG:BGSprite;
+	var houseBG2:BGSprite;
+	var houseBG3:BGSprite;
 	var houselights:BGSprite;
 	var trees:BGSprite;
 	var television:BGSprite;
@@ -586,6 +588,40 @@ class PlayState extends MusicBeatState
 
 				television = new BGSprite('interior/Overlay', -2800, 450, 1, 1);
 				television.setGraphicSize(Std.int(television.width * .5));
+
+			case 'hysteriahell':
+				houseBG3 = new BGSprite('interior/HoleInterior', -2550, -775, 0.9, 0.9);
+				houseBG3.frames = Paths.getSparrowAtlas('interior/HoleInterior');
+				houseBG3.setGraphicSize(Std.int(houseBG3.width * .45));
+				houseBG3.animation.addByPrefix('StaticFrame', 'LightsOff', 24, false);
+				houseBG3.animation.addByPrefix('LightUpFrame', 'LightsOn', 24, false);
+				add(houseBG3);
+
+				houseBG2 = new BGSprite('interior/Interior', -2550, -775, 0.9, 0.9);
+				houseBG2.frames = Paths.getSparrowAtlas('interior/Interior');
+				houseBG2.setGraphicSize(Std.int(houseBG2.width * .45));
+				houseBG2.animation.addByPrefix('StaticFrame', 'LightsOff', 24, false);
+				houseBG2.animation.addByPrefix('LightUpFrame', 'LightsOn', 24, false);
+				add(houseBG2);
+
+				houselights = new BGSprite('interior/Lights', houseBG2.x - 100, houseBG2.y, 0.9, 0.9);
+				houselights.frames = Paths.getSparrowAtlas('interior/Lights');
+				houselights.animation.addByPrefix('StaticFrame', 'LightsOff', 24, false);
+				houselights.animation.addByPrefix('LightUpFrame', 'LightsOn', 24, false);
+				houselights.setGraphicSize(Std.int(houselights.width * .45));
+				houselights.alpha = 0;
+
+				television = new BGSprite('interior/Overlay', -2800, 450, 1, 1);
+				television.setGraphicSize(Std.int(television.width * .5));
+				television.alpha = 0;
+
+				houseBG = new BGSprite('byersHouse/ByersHouse', -380, -250, 0.9, 0.9);
+				houseBG.frames = Paths.getSparrowAtlas('byersHouse/ByersHouse');
+				houseBG.animation.addByIndices('StaticFrame', 'Symbol 1', [0, 1, 4], "", 24, false);
+				houseBG.animation.addByIndices('LightUpFrame', 'Symbol 1', [2, 3, 5, 6], "", 24, false);
+				add(houseBG);
+
+				trees = new BGSprite('byersHouse/ByersTrees', -300, -250, 1.2, 1.2);
 		}
 
 		if (isPixelStage)
@@ -640,6 +676,12 @@ class PlayState extends MusicBeatState
 				add(gfSeat);
 				add(boyfriendGroup);
 				add(basementLight);
+			case 'hysteriahell':
+				add(boyfriendGroup);
+				add(dadGroup);
+				add(trees);
+				add(houselights);
+				add(television);
 			default:
 				add(dadGroup);
 				add(boyfriendGroup);
@@ -769,6 +811,20 @@ class PlayState extends MusicBeatState
 		{
 			dad.setPosition(GF_X, GF_Y);
 			gf.visible = false;
+		}
+		if (curStage == 'hysteriahell')
+		{
+			gf.visible = false;
+		}
+		if (curStage == 'byersHouse' || curStage == 'interior' || curStage == 'holeinterior')
+		{
+			camPos.x = 0;
+			camPos.y = 0;
+		}
+		if (curStage == 'hysteriahell')
+		{
+			camPos.x = 50;
+			camPos.y = 50;
 		}
 		switch (curStage)
 		{
@@ -3287,6 +3343,22 @@ class PlayState extends MusicBeatState
 			case 'Change Health Icons':
 				iconP2.changeIcon(value1);
 				reloadHealthBarColors();
+			case 'First Transition':
+				houseBG.visible = false;
+				trees.visible = false;
+				dad.visible = false;
+				gf.visible = true;
+				houselights.alpha = 1;
+				television.alpha = 1;
+				FlxG.camera.flash(FlxColor.WHITE, 1);
+				boyfriend.x -= 120;
+				boyfriend.y += 90;
+			case 'Second Transition':
+				houseBG2.visible = false;
+				dad.visible = true;
+				gf.visible = false;
+				dad.x -= 300;
+				FlxG.camera.flash(FlxColor.WHITE, 1);
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
@@ -4147,7 +4219,7 @@ class PlayState extends MusicBeatState
 					altAnim = '-alt';
 				}
 			}
-
+			// Hey! If you found this, I'll be amazed, but you gotta prove it, so send a screenshot of this to me on Discord! CQ The Kid#6627
 			var char:Character = dad;
 			var animToPlay:String = singAnimations[Std.int(Math.abs(note.noteData))] + altAnim;
 			if (note.gfNote)
@@ -4725,6 +4797,23 @@ class PlayState extends MusicBeatState
 				if (curBeat % 4 == 1)
 				{
 					houseBG.animation.play('LightUpFrame');
+					houselights.animation.play('LightUpFrame');
+				}
+
+			case "hysteriahell":
+				if (curBeat % 4 == 0)
+				{
+					houseBG.animation.play('StaticFrame');
+					houseBG2.animation.play('StaticFrame');
+					houseBG3.animation.play('StaticFrame');
+					houselights.animation.play('StaticFrame');
+				}
+
+				if (curBeat % 4 == 1)
+				{
+					houseBG.animation.play('LightUpFrame');
+					houseBG2.animation.play('LightUpFrame');
+					houseBG3.animation.play('LightUpFrame');
 					houselights.animation.play('LightUpFrame');
 				}
 		}
