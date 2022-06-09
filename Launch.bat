@@ -1,0 +1,1 @@
+start Stranger Funks.exe
